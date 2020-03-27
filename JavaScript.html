@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+
+<html>
+
+<body>
+
+<h2>JavaScript Task</h2>
+
+<p id="demo"></p>
+
+<h3>My Courses</h3>
+<p id="demo2"></p>
+
+<script>
+var w = "David";
+var x = "&nbsp"
+var y = "Obadofin";
+var z = w + x + y;
+document.getElementById("demo").innerHTML =
+"My Name is " + z;
+</script>
+
+
+<script>
+var courses = ["HTML", "CSS", "JavaScript", "Design"];
+var text = "";
+var i;
+for (i = 0; i < courses.length; i++) {
+  text += courses[i] + "<br>";
+}
+document.getElementById("demo2").innerHTML = text;
+</script>
+
+
+<button type="button"   onclick="findEven()"  >Even Numbers between 1-200(Inclusive)</button>
+
+<script language="javascript" type="text/javascript">
+
+
+
+
+function findEven() {
+
+var i
+
+for(i=1;i<=200;i++)
+
+if(i%2==0)
+
+document.write("Even No "+i + " <br>")
+
+
+}
+
+
+
+</script>
+
+</body>
+
+</html>>
