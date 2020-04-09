@@ -1,0 +1,86 @@
+body {
+    background-color: #ADD8E6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+   }
+   
+   h1 {
+       text-align: center;
+       color: #083E9E;
+       font: 24px sans-serif;
+   }
+   
+   p {
+       text-align: center;
+       font: 16px sans-serif;
+       line-height: 26px;
+       margin-bottom: 2em;
+       color: #4A5568;
+       font: 14px Karla, sans-serif;
+       text-size-adjust: 100%;
+   }
+   .piggy-logo {
+       display: flex;
+       justify-content: center;
+       align-items: center;
+       margin-top: 3cm;
+   
+   }
+   
+   .container {
+       background-color: #ffffff;
+       width: 30%;
+       height: 80%;
+       border-radius: 15px 15px 15px 0px;
+       border: none;
+       margin-left: 450px;
+       margin-top: 40px;
+       margin-right: 450px;
+       margin-bottom: 40px;
+       font-size: 12px;
+       padding: 30px;
+       font-family: U8, sans-serif;
+   
+   }
+   
+   input[type=text] {
+       width: 90%;
+       font-size: 15px;
+       padding: 16px;
+       border-radius: 4px;
+       background-color: #EDF2F7;
+       border: none;
+       outline: none;
+       margin-top: 10px;
+   }
+   
+   #about {
+       width: 98%;
+       font-size: 15px;
+       padding: 18px 20px;
+       border-radius: 10px;
+       background-color: #EDF2F7;
+       border: none;
+       outline: none;
+       margin-top: 10px;
+   }
+   
+   input[type=submit]{
+       width: 98%;
+       font-size: 15px;
+       padding: 18px 20px;
+       border-radius: 10px 10px 10px 0px;
+       background-color: navy;
+       margin-top: 15px;
+       margin-bottom: 1cm;
+       color: #ffffff;
+       border: none;
+       outline: none;
+   }
+   
+   input[type=submit]:hover{
+   background-color: blue;
+   }
+   
