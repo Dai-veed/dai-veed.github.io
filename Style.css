@@ -1,5 +1,9 @@
 body {
-    background-color: #062863;
+    background-image: url(Background.png);
+	background-repeat: no-repeat;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: center;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -31,7 +35,7 @@ body {
    
    .container {
        background-color: #ffffff;
-       width: 30%;
+       width: 20%;
        height: 80%;
        border-radius: 15px 15px 15px 0px;
        border: none;
