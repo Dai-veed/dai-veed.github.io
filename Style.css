@@ -1,9 +1,9 @@
 body {
     background-image: url(Background.png);
 	background-repeat: no-repeat;
-	background-size: cover;
 	background-attachment: fixed;
 	background-position: center;
+	background-size: cover;
     display: flex;
     justify-content: center;
     align-items: center;
